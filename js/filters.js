@@ -8,7 +8,7 @@ angular.module('widget.filters', [])
   })
   .filter('split', function () {
     return function (input, sep) {
-      var replaceRegex = new RegExp(sep, 'g')
-      return input.replace(replaceRegex, '<br />')
-    }
-  })
+      var replaceRegex = new RegExp(sep, 'g');
+      return input.replace(replaceRegex, '<br />');
+    };
+  });

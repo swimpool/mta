@@ -1,4 +1,6 @@
-function MtaStatusCtrl($scope, $http, chameleon) {
+function MtaStatusCtrl($scope, $http, Chameleon, version) {
+
+  var bugsense = new Bugsense({ apiKey: '9c5692a1', appversion: version });
 
   $scope.$on('chameleon.refresh', function () {
     updateStatus();
@@ -38,7 +40,7 @@ function MtaStatusCtrl($scope, $http, chameleon) {
         $scope.lastUpdated = new Date();
       })
       .error(function (data, status, headers, config) {
-        // TODO: Do something about this error I suppose!
+        bugsense.notify(new Error('Update Status Error'));
       });
   }
 
