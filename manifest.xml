@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest xmlns="http://chameleonlauncher.com/widgets">
+  <widget>
+    <guid>com.widgetgecko.mta</guid>
+    <baseURL>http://s3.amazonaws.com/widgetgecko/mta/</baseURL>
+    <name>MTA</name>
+    <description>A widget showing the current status of the MTA subway network.</description>
+    <version>0.1.0</version>
+  </widget>
+  <style>
+    <icons>
+      <large>images/icon.png</large>
+    </icons>
+    <color>#0055aa</color>
+    <showTitleBar>true</showTitleBar>
+    <showBackgroundShadow>false</showBackgroundShadow>
+    <allowRefresh>true</allowRefresh>
+    <allowConfigure>false</allowConfigure>
+    <allowAction>false</allowAction>
+  </style>
+  <author>
+    <name>WidgetGecko</name>
+    <website>http://widgetgecko.com</website>
+    <email>info@widgetgecko.com</email>
+    <support type="email">support@widgetgecko.com</support>
+    <support type="URL">http://widgetgecko.com/support</support>
+  </author>
+  <resources>
+    <resource name="index.html" />
+    <resource name="js/app.js" />
+    <resource name="js/controllers.js" />
+    <resource name="js/directives.js" />
+    <resource name="js/filters.js" />
+    <resource name="js/services.js" />
+    <resource name='css/widget.css' />
+    <resource name='css/line.css' />
+    <resource name='images/icon.png' />
+  </resources>
+</manifest>
