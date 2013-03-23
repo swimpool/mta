@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
     <link rel="stylesheet" href="//chameleon.teknision.com/widgets/common/css/chameleon.css" data-skip="true">
-    <link rel="stylesheet" href="css/widget.css">
+    <link rel="stylesheet" href="//s3.amazonaws.com/widgetgecko/london-tube/css/widget.css">
     <link rel="stylesheet" href="css/lines.css">
   </head>
   <body ng-controller="MtaStatusCtrl">
@@ -15,9 +15,13 @@
           <div class="name colour"><span>{{line.name}}</span></div>
           <div class="status"><span ng-bind-html="line.status | titlecase | split: ','"></span></div>
         </div>
+        <div class="line-status-footer line-status">
+          <div>Last updated</div>
+          <div><span time-from-now="lastUpdated"></span></div>
+        </div>
       </div>
     </div>
-    <script src="http://www.bugsense.com/static/js/global/bugsense.js" type='text/javascript'></script>
+    <script type="text/javascript" src="//www.bugsense.com/static/js/global/bugsense.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="//chameleon.teknision.com/widgets/common/js/chameleon.server.js"></script>
     <script type="text/javascript" src="//chameleon.teknision.com/widgets/common/js/chameleon.js"></script>
@@ -25,11 +29,12 @@
     <script type="text/javascript" src="//chameleon.teknision.com/widgets/common/js/chameleon.localization.jquery.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular-sanitize.min.js"></script>
-    <script type="text/javascript" src="//s3.amazonaws.com/widgetgecko/common/js/services/0.0.1/services.min.js"></script>
+    <script type="text/javascript" src="//s3.amazonaws.com/widgetgecko/common/js/services/0.0.3/services.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript" src="js/filters.js"></script>
+    <script type="text/javascript" src="//s3.amazonaws.com/widgetgecko/london-tube/js/filters.js"></script>
     <script type="text/javascript" src="js/services.js"></script>
-    <script type="text/javascript" src="js/directives.js"></script>
+    <script type="text/javascript" src="//s3.amazonaws.com/widgetgecko/london-tube/js/directives.js"></script>
     <script type="text/javascript" src="js/controllers.js"></script>
   </body>
 </html>

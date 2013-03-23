@@ -5,7 +5,7 @@
     <baseURL>http://s3.amazonaws.com/widgetgecko/mta/</baseURL>
     <name>MTA</name>
     <description>A widget showing the current status of the MTA subway network.</description>
-    <version>0.1.4</version>
+    <version>0.1.7</version>
   </widget>
   <style>
     <icons>
@@ -29,10 +29,7 @@
     <resource name="index.html" />
     <resource name="js/app.js" />
     <resource name="js/controllers.js" />
-    <resource name="js/directives.js" />
-    <resource name="js/filters.js" />
     <resource name="js/services.js" />
-    <resource name='css/widget.css' />
     <resource name='css/line.css' />
     <resource name='images/icon.png' />
   </resources>
