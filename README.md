@@ -4,7 +4,9 @@
 
 Keep an eye on the status of the MTA subway with this widget.
 
-**Current Version:** Not Yet Released!
+**Current Version:** 0.1.4
+
+### [Install in Chameleon][2] | [More Details][3]
 
 ## License
 
@@ -17,5 +19,5 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [1]: http://www.chameleonlauncher.com/
-[2]: http://widgetgecko.com/mta/
+[2]: http://widgetgecko.com/mta/install/
 [3]: http://widgetgecko.com/mta/info/
