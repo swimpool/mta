@@ -1,43 +1,43 @@
 .line-status[data-line-id="123"] .colour {
-  background-color: rgba(238, 53, 46, 0.7);
+  background-color: rgba(238, 53, 46, 0.75);
 }
 
 .line-status[data-line-id="456"] .colour {
-  background-color: rgba(0, 147, 60, 0.7);
+  background-color: rgba(0, 147, 60, 0.75);
 }
 
 .line-status[data-line-id="7"] .colour {
-  background-color: rgba(185, 51, 173, 0.7);
+  background-color: rgba(185, 51, 173, 0.75);
 }
 
 .line-status[data-line-id="ace"] .colour {
-  background-color: rgba(40, 80, 173, 0.7);
+  background-color: rgba(40, 80, 173, 0.75);
 }
 
 .line-status[data-line-id="bdfm"] .colour {
-  background-color: rgba(255, 99, 25, 0.7);
+  background-color: rgba(255, 99, 25, 0.75);
 }
 
 .line-status[data-line-id="g"] .colour {
-  background-color: rgba(108, 190, 69, 0.7);
+  background-color: rgba(108, 190, 69, 0.75);
 }
 
 .line-status[data-line-id="jz"] .colour {
-  background-color: rgba(153, 102, 51, 0.7);
+  background-color: rgba(153, 102, 51, 0.75);
 }
 
 .line-status[data-line-id="l"] .colour {
-  background-color: rgba(167, 169, 172, 0.7);
+  background-color: rgba(167, 169, 172, 0.75);
 }
 
 .line-status[data-line-id="nqr"] .colour {
-  background-color: rgba(252, 204, 10, 0.7);
+  background-color: rgba(252, 204, 10, 0.75);
 }
 
 .line-status[data-line-id="s"] .colour {
-  background-color: rgba(128, 129, 131, 0.7);
+  background-color: rgba(128, 129, 131, 0.75);
 }
 
 .line-status[data-line-id="sir"] .colour {
-  background-color: rgba(22, 38, 107, 0.7);
+  background-color: rgba(22, 38, 107, 0.75);
 }

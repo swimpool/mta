@@ -5,7 +5,7 @@
     <baseURL>http://s3.amazonaws.com/widgetgecko/mta/</baseURL>
     <name>MTA</name>
     <description>A widget showing the current status of the MTA subway network.</description>
-    <version>0.1.7</version>
+    <version>0.1.8</version>
   </widget>
   <style>
     <icons>

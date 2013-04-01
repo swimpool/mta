@@ -1,1 +1,7 @@
-angular.module('mtaWidget', [ 'widget.filters', 'widgetgecko.services', 'widget.directives', 'ngSanitize', 'widget.services' ]);
+angular.module('mtaWidget', [
+  'ngSanitize',
+  'widgetgecko.services',
+  'widget.filters',
+  'widget.directives',
+  'widget.services'
+]);
